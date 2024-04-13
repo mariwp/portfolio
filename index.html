@@ -1,92 +1,108 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Mi portafolio personal</title>
-  </head>
-  <body>
-    <header>
-      <nav>
-        <ul> <!--unnorganized list-->
-          <a href="#acerca-de-mi">Acerca de mí</a>
-          <a href="#habilidades">Habilidades</a>
-          <a href="#experiencia">Experiencia</a>
-          <a href="#proyectos">Proyectos</a>
-          <a href="#contacto">Contacto</a>
-        </ul>
-      </nav>
-      <h1>Maria Wolfart Piton</h1>
-      <h2>Estudiante</h2>
-    </header>
-    <main>
-      <section id="acerca-de-mi"> <!--acerca-de-mi es un atributo que permite acceder a esta seccion de forma especifica-->
-        <h2>Acerca de mí</h2>
-        <p>
-          Tengo 19 años, soy estudiante de ingeniería informática.
-        </p>
-        <img src="https://img.freepik.com/vector-premium/monitor-computadora-retro-dibujos-animados-teclado-retro-vector-ilustracion-kitsch-vintage_939711-2948.jpg?w=996" height="100">
-      </section>
-      <section id="habilidades">
-        <h2>Habilidades</h2>
-        <ul>
-          <li>Python</li>
-          <li>Java</li>
-          <li>HTML</li>
-        </ul>
-      </section>
-      <section id="experiencia">
-        <h2>Experiencia</h2>
-        <ul>
-          <li>
-            <b>Empresa X</b> (fecha)
-            <ul>
-              <li>Posicion en la empresa</li>
-              <li>
-                Responsabilidades en la empresa
-              </li>
-            </ul>
-          </li>
-          <li>
-        </ul>
-      </section>
-      <section id="proyectos">
-        <h2>Proyectos</h2>
-        <ul>
-          <li>
-            <a href="#link-proyecto"
-              >Mi proyecto
-            </a>
-            <p>Descripción del proyecto</p>
-          </li>
-        </ul>
-      </section>
-      <section id="contacto">
-        <h2>Contacto</h2>
-        <ul>
-          <li>Email: mariawpiton@gmail.com</li>
-          <li>Teléfono: 0985 630 093</li>
-          <li> 
-            <a href="https://wa.me/0985630093">Whatsapp</a>
-          </li>
-          <li>
-            Redes Sociales:
-            <ul>
-              <li>
-                <a href="https://instagram.com/maria_piton">Instagram</a>
-              </li>
-              <li>
-                <a href="https://www.linkedin.com/in/tucuenta">LinkedIn</a>
-              </li>
-              <li>
-                <a href="https://github.com/mariwp">GitHub</a>
-              </li>
-              <!-- Comentario de una linea -->
-            </ul>
-          </li>
-        </ul>
-      </section>
-    </main>
-    <footer>
-      <p>Copyright &copy; 2024</p>
-    </footer>
-  </body>
+
+<head>
+  <title>Mi portafolio personal</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul> <!--unnorganized list-->
+        <a class="menu-item" href="#acerca-de-mi">Acerca de mí</a>
+        <a class="menu-item" href="#habilidades">Habilidades</a>
+        <a class="menu-item" href="#experiencia">Experiencia</a>
+        <a class="menu-item" href="#proyectos">Proyectos</a>
+        <a class="menu-item" href="#contacto">Contacto</a>
+      </ul>
+    </nav>
+    <h1>Maria Wolfart Piton</h1>
+    <h2>Estudiante</h2>
+  </header>
+  <main>
+    <section id="imagen">
+      <img
+      src="https://img.freepik.com/vector-premium/monitor-computadora-retro-dibujos-animados-teclado-retro-vector-ilustracion-kitsch-vintage_939711-2948.jpg?w=996"
+      alt="（*＾-＾*）"
+      height="100"
+      >
+    </section>
+    <section id="acerca-de-mi">
+      <!--acerca-de-mi es un atributo que permite acceder a esta seccion de forma especifica-->
+      <h2>Acerca de mí</h2>
+      <p>
+        Tengo 19 años, soy estudiante de ingeniería informática.
+      </p>
+      
+    </section>
+    <section id="habilidades">
+      <h2>Habilidades</h2>
+      <ul>
+        <li>Python</li>
+        <li>Java</li>
+        <li>HTML</li>
+      </ul>
+    </section>
+    <section id="experiencia">
+      <h2>Experiencia</h2>
+      <ul>
+        <li>
+          <b>Empresa X</b> (fecha)
+          <ul>
+            <li>Posicion en la empresa</li>
+            <li>
+              Responsabilidades en la empresa
+            </li>
+          </ul>
+        </li>
+        <li>
+      </ul>
+    </section>
+    <section id="proyectos">
+      <h2>Proyectos</h2>
+      <ul>
+        <li>
+          <a href="#link-proyecto">Mi proyecto
+          </a>
+          <p>Descripción del proyecto</p>
+        </li>
+      </ul>
+    </section>
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <ul>
+        <li>Email: mariawpiton@gmail.com</li>
+        <li>Teléfono: 0985 630 093</li>
+        <li>
+          Redes Sociales:
+          <ul id="sociales">
+            <li>
+              <a href="https://wa.me/0985630093" class="fa fa-whatsapp">Whatsapp</a>
+            </li>
+            <li>
+              <a href="https://github.com/mariwp" class="fa fa-github">GitHub</a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/tucuenta" class="fa fa-linkedin">LinkedIn</a>
+            </li>
+            <li>
+              <a href="https://instagram.com/maria_piton" class="fa fa-instagram">Instagram</a>
+            </li>
+            
+            <!-- Comentario de una linea -->
+          </ul>
+        </li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>Copyright &copy; 2024</p>
+  </footer>
+</body>
+
 </html>
